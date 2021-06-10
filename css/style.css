@@ -9,9 +9,9 @@ body {
     overflow-x: hidden;
 }
 
-main {
+/* main {
     width: calc(100vw - (100vw - 100%));
-}
+} */
 
 /* COLORS */
 
@@ -51,11 +51,14 @@ h1 {
 
 h2 {
     font-family: Bree;
+    font-size: 3rem;
+    font-weight: 400;
 }
 
 p, a, button {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5rem;
+    line-height: 1.5;
 }
 
 p.italic-text {
@@ -88,7 +91,6 @@ section#beginning p {
     text-align: center;
     margin: auto auto;
     padding: 1rem;
-    line-height: 1.5;
 }
 
 section#beginning svg {
@@ -115,7 +117,7 @@ section#beginning svg {
 }
 
 .right-ground {
-    width: 8rem;
+    width: 10rem;
     height: 8rem;
     position: absolute;
     right: 0;
@@ -133,13 +135,46 @@ section#beginning svg {
 } */
 
 
+/* OLIFANT */
 
 section#olifant {
     width: 100vw;
     height: 100vh;
-
+    position: relative;
     background-color: var(--gray-color);
 }
+
+section#olifant h2 {
+    max-width: 60rem;
+    padding: 3rem;
+    text-align: center;
+    display: block;
+    margin: auto auto;
+}
+
+section#olifant p {
+    max-width: 60rem;
+    margin: auto auto;
+}
+
+section#olifant .left-wall {
+    width: 10rem;
+    height: 100vw;
+    background-color: var(--brown-color);
+    position: absolute;
+    top: 0;
+}
+
+section#olifant .right-wall {
+    width: 10rem;
+    height: 100vw;
+    background-color: var(--brown-color);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
 
 section#loopgraaf {
     width: 100vw;
@@ -170,6 +205,31 @@ hr {
     display: block;
     margin: 2rem auto;
 }
+
+/* SPACES BETWEEN SECTIONS */
+
+.beginoli {
+    width: 100vw;
+    height: 20rem;
+    background-color: var(--gray-color);
+}
+
+.left-wall {
+    width: 10rem;
+    height: 20rem;
+    background-color: var(--brown-color);
+    position: absolute;
+}
+
+.right-wall {
+    width: 10rem;
+    height: 20rem;
+    background-color: var(--brown-color);
+    position: absolute;
+    right: 0;
+}
+
+
 
 /* BUTTON */ 
 
