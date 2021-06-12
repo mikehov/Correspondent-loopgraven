@@ -118,6 +118,13 @@ section#beginning svg {
     bottom: 0;
 }
 
+.left-ground img {
+    width: 10rem;
+    height: auto;
+    bottom: 0;
+    position: absolute;
+}
+
 .right-ground {
     width: 10rem;
     height: 8rem;
@@ -130,6 +137,13 @@ section#beginning svg {
     width: 10rem;
     height: auto;
     bottom: 0;
+}
+
+.right-ground img {
+    width: 10rem;
+    height: auto;
+    bottom: 0;
+    position: absolute;
 }
 
 /* section#beginning .right-ground {
@@ -276,6 +290,14 @@ section#loopgraaf p span {
     color: var(--yellow-color)
 }
 
+section#loopgraaf img {
+   width: 10rem;
+   height: auto;
+   position: absolute; 
+   margin-left: 19rem;
+   z-index: 10;
+}
+
 section#loopgraaf svg {
     width: 50rem;
     height: auto;
@@ -374,6 +396,15 @@ section#boodschap p.tip {
 }
 
 section#boodschap svg#together {
+    width: 12rem;
+    height: auto;
+    position: absolute;
+    left: 3rem;
+    bottom: 3rem;
+    z-index: 10;
+}
+
+section#boodschap img {
     width: 12rem;
     height: auto;
     position: absolute;
