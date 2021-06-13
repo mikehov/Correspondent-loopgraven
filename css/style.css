@@ -206,6 +206,16 @@ section#olifant svg#olifant-ill {
     margin: auto auto;
 }
 
+section#olifant img {
+    width: 25rem;
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2.6rem;
+    margin: auto auto;
+}
+
 section#olifant .button-row {
     width: 100%;
     display: flex;
@@ -335,6 +345,15 @@ section#situatie p {
     /* margin-left: auto; */
     text-align: left;
 }
+
+section#situatie img {
+    width: 25rem;
+    height: auto;
+    position: absolute;
+    margin-top: 10rem; 
+    right: 10rem;
+    z-index: 10;
+ }
 
 section#boodschap {
     width: 100vw;
