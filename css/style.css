@@ -306,6 +306,7 @@ section#loopgraaf img {
    position: absolute; 
    margin-left: 19rem;
    z-index: 10;
+   bottom: -0.8rem;
 }
 
 section#loopgraaf svg {
@@ -557,4 +558,13 @@ footer p {
 
 footer a {
     font-size: 1rem;
+    color: var(--yellow-color);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    font-size: 1rem;
+    color: var(--white-color);
+    text-decoration: none;
 }
