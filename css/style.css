@@ -235,12 +235,14 @@ section#olifant button {
 section#olifant button.left:hover {
     /* transform-origin: 50% 120%; */
     position: relative;
+    cursor: pointer;
     transform: rotate(-10deg) translate(-1rem);
 }
 
 section#olifant button.right:hover {
     /* transform-origin: 50% 120%; */
     position: relative;
+    cursor: pointer;
     transform: rotate(10deg) translate(1rem);
 }
 
